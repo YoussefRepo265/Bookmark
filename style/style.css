@@ -1,0 +1,47 @@
+body {
+  background-color: #f7ecde;
+}
+.container {
+  font-family: "Pacifico", cursive;
+  /* line-height: 60px;
+  font-size: 100px; 
+  font-weight: 500; */
+}
+
+#btn {
+  background-color: #d1512d !important;
+}
+#style {
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  color: transparent;
+  background-clip: text;
+  font-family: "Righteous", sans-serif;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.input-body {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+#heading::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  left: 35rem;
+  bottom: 10%;
+  background-color: #fec260;
+  z-index: -1;
+  transition: all 0.4s;
+  
+}
+#heading:hover::before{
+  height: 30px;
+}
+.line{
+  border-style: dotted;
+  color: black;
+}
